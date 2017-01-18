@@ -1,0 +1,36 @@
+Getting Started with Images
+Goals
+
+    Here, you will learn how to read an image, how to display it and how to save it back
+    You will learn these functions : cv2.imread(), cv2.imshow() , cv2.imwrite()
+    Optionally, you will learn how to display images with Matplotlib
+
+Using OpenCV
+
+Read an image
+
+Use the function cv2.imread() to read an image. The image should be in the working directory or a full path of image should be given.
+
+Second argument is a flag which specifies the way image should be read.
+
+    cv2.IMREAD_COLOR : Loads a color image. Any transparency of image will be neglected. It is the default flag.
+    cv2.IMREAD_GRAYSCALE : Loads image in grayscale mode
+    cv2.IMREAD_UNCHANGED : Loads image as such including alpha channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using Matplotlib
+
+Matplotlib is a plotting library for Python which gives you wide variety of plotting methods. You will see them in coming articles. 
+Here, you will learn how to display image with Matplotlib. You can zoom images, save it etc using Matplotlib.
